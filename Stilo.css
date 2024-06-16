@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar{
+	padding-top: 0;
+	padding-bottom: 20px;
+	margin-top: 7px;
+	padding-left: 3px;
+	padding-right: 3px;
+	background-color: #254336;
+	text-align: center;
+	position: relative;
+}
+
+.navbar ul{
+	background-color: #254336;
+	margin: 0px;
+	padding: 0px;
+	height: 100px;
+}
+
+.navbar ul li{
+	float: center;
+	width: 110px;
+}
+
+ul li a{
+	border-left: 0px solid #FFFFFF;
+	padding: .5em;
+	display: block;
+	text-decoration: none;
+}
+
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.menu{
+	flex: 1;
+	text-align: right;
+}
+
+nav img{
+	width: 200px;
+	left: 80px;
+}
+
+.menu ul li{
+	list-style: inside;
+	display: inline-block;
+	padding: 20px 12px;
+	position: relative;
+}
+
+.menu ul li a{
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+}
+
+.menu ul li:hover{
+	background-color: #838181;
+}
+
+body footer{
+	position: relative;
+	top: 15em;
+	background-color: #254336;
+	text-align: left;
+	color: #FFf;
+	height: 150px;
+	justify-content: space-between;
+	padding-top: 2em;
+}
+
+body footer p{
+	text-align: left;
+}
+
+body footer h3{
+	color: #fff;
+	text-align: center;
+}
+
+header{
+	background-image: url("Darlene Baca - Imagenes del Sitio Web/IIndex.jpeg");
+	min-height: 130vh;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.alumnos{
+	background-color: rgba(0,0,0,1.00);
+	width: 300px;
+	font-size: 20px;
+	padding-top: 1em;
+	padding-right:1em;
+	padding-left: 1em;
+	position: absolute;
+	color: #D8D445;
+	margin-top: 1em;
+	left: 1%;
+	text-align: center;
+	padding-bottom: 1.5em;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+.maestros{
+	background-color: rgba(0,0,0,1.00);
+	width: 300px;
+	font-size: 20px;
+	padding-top: 1em;
+	padding-right:1em;
+	padding-left: 1em;
+	padding-bottom: 1.5em;
+	position: absolute;
+	color: #D8D445;
+	margin-top: 1em;
+	left: 37%;
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+.verde{
+	background-color: rgba(0,0,0,1.00);
+	width: 300px;
+	font-size: 20px;
+	padding-top: 1em;
+	padding-right:1em;
+	padding-left: 1em;
+	padding-bottom: 1.5em;
+	position: absolute;
+	color: #D8D445;
+	margin-top: 1em;
+	left: 71%;
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+.gift{
+	width: 1200px;
+	height: 800px;
+	margin-top: 250px;
+}
+
+
+
+.h-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: #BA2F32;
+	border: 1px solid #9C9090;
+	padding: 10px 12px;
+	font-size: 30px;
+	background: transparent;
+	text-align: left;
+	justify-content: center;
+	background-position: center;
+	list-style: none;
+	transform: translate(640px, 25px);
+	margin-top: 400px;
+}
